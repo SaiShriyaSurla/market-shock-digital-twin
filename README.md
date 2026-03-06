@@ -28,19 +28,6 @@ This project is for **scenario testing**, not price prediction.
   - `output/simulation_results.csv`
   - `output/metrics.json`
 
-## Project Structure
-
-```text
-market-twin/
-├── src/
-│   ├── main.py
-│   ├── simulator.py
-│   └── config.py
-├── output/
-├── requirements.txt
-├── .gitignore
-└── README.md
-
 ## Key Findings 
 
 - Tested four point-shock scenarios on SPY: `-2%`, `-5%`, `-10%`, `-20%`.
@@ -54,3 +41,17 @@ market-twin/
 - Conclusion: the current model clearly captures stress impact on price level and PnL, but has limited sensitivity in volatility due to the current shock construction.
 
 ![Price Comparison](output/price_comparison.png)
+
+## Project Structure
+
+```text
+market-twin/
+├── src/
+│   ├── main.py
+│   ├── simulator.py
+│   └── config.py
+├── output/
+├── requirements.txt
+├── .gitignore
+└── README.md
+
