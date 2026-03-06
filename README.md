@@ -52,3 +52,5 @@ market-twin/
 - `volatility_change` is effectively `0` in all cases (values around `e-17` are numerical noise).
 - Max drawdown worsened materially only in the `-20%` case (`drawdown_change = -0.0543`), meaning this shock pushed the path into a deeper trough than baseline.
 - Conclusion: the current model clearly captures stress impact on price level and PnL, but has limited sensitivity in volatility due to the current shock construction.
+
+![Price Comparison](output/price_comparison.png)
